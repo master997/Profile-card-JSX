@@ -1,15 +1,11 @@
-function ProfileCard() {
+function ProfileCard(props) {
   return (
     <div className="card">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXlCTXMgRZDDt1YVa45aw4VKiV-4KFoERoxQ&s"
-        alt="user avatar"
-        className="avatar"
-      />
-      <h2>Sosuke Aizen</h2>
-      <h3>Captain class: Soul reaper</h3>
+      <img src={props.image} alt={props.name} className="avatar" />
+      <h2>{props.name}</h2>
+      <h3>{props.bio}</h3>
       <p>
-        Status: <span className="status">Online</span>
+        Status: <span className="status">{props.status}</span>
       </p>
     </div>
   );
