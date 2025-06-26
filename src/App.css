@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: #c6c8ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  margin-left: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+}
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.status {
+  font-weight: bold;
+  color: green;
+}
+p {
+  color: black;
+}
